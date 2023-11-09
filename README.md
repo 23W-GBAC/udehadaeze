@@ -20,4 +20,5 @@ Why follow? If reaping the many benefits of yoga is part of your wellness plan, 
 
 5. Born Fitness
 Why follow? This fitness blog simplifies the sometimes confusing world of exercise. interviews experts in fitness and nutrition, then creates useful articles featuring the top tips and advice from the pros. Head to this sleek, easy-to-search site for science-based answers to your biggest fitness questions.
-**SOURCE: Rammsuen University (https://www.rasmussen.edu/degrees/health-sciences/blog/wellness-blogs-to-stay-happy-and-healthy/)
+
+**SOURCE**: Rammsuen University (https://www.rasmussen.edu/degrees/health-sciences/blog/wellness-blogs-to-stay-happy-and-healthy/)
