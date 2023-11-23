@@ -8,6 +8,7 @@
 | Kseniia | Vinogradova | https://github.com/23W-GBAC/kseniiavi.git | Injuries | First book | Readers |
 | Ama | Adusei | git@github.com:23W-GBAC/AmaAdusei.git | Dealing with Change | What is change? | Young People |
 | Lucky | Enechukwu | https://github.com/23W-GBAC/Boves556_Lucky.git | Video gaming health benefits | Healthy gaming | Gamers |
+| Adaeze | Udeh | https://github.com/23W-GBAC/udehadaeze.git | Nutrition | Nutrition | Audience |   
 | Gloria | Azum | https://github.com/23W-GBAC/Azukaego_blog.git | Data Quality In Women's Healthcare | It's Just Your Anxiety | Women |
 | Jayson | Dabu | https://github.com/23W-GBAC/jysndabu.git | Recommender System | Nutrition Planner | Individuals with Fitness goal |
 | Maryem | Abdellah | https://github.com/23W-GBAC/Maryem-Mohamed.git | Not-decided | title-not-decided | audience-not-decided |
