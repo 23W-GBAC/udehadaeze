@@ -8,7 +8,7 @@ In this blog we are going to be exploring a series of stories which are based on
 
 
 
-For the first case in this series, i will be discussing: **"The Bizarre Case of Gloria Ramirez:The Toxic Lady and the Enigmatic Medical Mystery"**
+For the first case in this series, i will be discussing: **"THE BIZZARE CASE OF GLORIA RAMIREZ:The Toxic Lady and the Enigmatic Medical Mystery"**
 
 **Introduction:**
 In the quiet town of Riverside, a routine evening at Riverside General Hospital took a chilling turn when Gloria Ramirez, a seemingly ordinary woman, was admitted with severe respiratory distress. Little did the medical team know that this case would evolve into one of the most enigmatic and unsettling medical mysteries in history.
@@ -24,7 +24,8 @@ As the medical team attempted to draw blood, they observed an unusual manila-col
 Shortly after Gloria's admission, several healthcare workers who treated and came into contact with Gloria Ramirez started experiencing strange symptoms. This included fainting, dizziness, and respiratory distress. Faced with an escalating crisis, the hospital initiated a Code Blue. The emergency room was evacuated, and hazmat teams were summoned to handle the situation. The entire incident unfolded like a scene from a sci-fi thriller, leaving the medical community and the public in shock.
 
 **Gloria's Passing:**
-Despite the efforts to stabilize her condition, Gloria Ramirez succumbed to her illness and passed away in the Emergency room. The circumstances surrounding her death, coupled with the strange symptoms and the impact on healthcare workers, triggered immediate speculation and concern.
+Despite the efforts to stabilize her condition, Gloria Ramirez succumbed to her illness and passed away in the Emergency room 45 minutes after her arrival. 
+The circumstances surrounding her death, coupled with the strange symptoms and the impact on healthcare workers, triggered immediate speculation and concern.
 
 **Conspiracy Theories:**
 The mysterious nature of Gloria's symptoms gave rise to numerous conspiracy theories. Some suggested intentional poisoning, while others entertained the idea of exposure to toxic substances. Theories ranged from environmental contamination to an adverse reaction to medications.
@@ -45,5 +46,4 @@ Despite extensive investigations, the case of Gloria Ramirez remains unsolved wi
 
 
 
-
-**SOURCE**: https://chat.openai.com/c/b11b8274-132f-4dd3-8f07-37421a39709f
+**SOURCE**: https://chat.openai.com/c/894e8eef-a6b6-4149-8a00-e396b5bc153c
