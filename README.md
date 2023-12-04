@@ -2,7 +2,6 @@
 
 # TRUE CRIME, STRANGE, DARK & MYSTERIOUS STORIES (BASED ON ACTUAL EVENTS)
 If you are a fan of True crime, Strange, Dark & Mysterious stories, then you have come to the right place. 
-
 In this blog we are going to be exploring a series of stories which are based on true & actual events. Together we would be taking a look at some of the world's most infamous cases which you may or may-not have heard about.   
 WARNING: All STORIES ARE BASED ON TRUE & ACTUAL EVENTS.
 
