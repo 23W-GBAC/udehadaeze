@@ -12,7 +12,7 @@ For the first case in this series, i will be discussing: **THE BIZZARE CASE OF G
 
 **Introduction:**
 
-In the quiet town of Riverside, a routine evening at Riverside General Hospital took a chilling turn when Gloria Ramirez, a seemingly ordinary woman, was admitted with severe respiratory distress. Little did the medical team know that this case would evolve into one of the most enigmatic and unsettling medical mysteries in history.
+ On February 1994 in the quiet town of Riverside California, a routine evening at Riverside General Hospital took a chilling turn when Gloria Ramirez, a seemingly ordinary woman, was admitted with severe respiratory distress. Little did the medical team know that this case would evolve into one of the most enigmatic and unsettling medical mysteries in history.
 
 **Background:**
 
