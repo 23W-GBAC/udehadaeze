@@ -1,4 +1,4 @@
-![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/a5345514-53e3-46ab-939b-aeca3f15c06f)
+![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/6bd0d2a0-d293-43ef-a26b-b1116e270ebb)
 
 
 # TRUE CRIME, STRANGE, DARK & MYSTERIOUS STORIES (BASED ON ACTUAL EVENTS)
