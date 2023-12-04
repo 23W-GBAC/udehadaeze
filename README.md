@@ -8,7 +8,7 @@ In this blog we are going to be exploring a series of stories which are based on
 
 
 
-For the first case in this series, i will be discussing: **"THE BIZZARE CASE OF GLORIA RAMIREZ:The Toxic Lady and the Enigmatic Medical Mystery"**
+For the first case in this series, i will be discussing: **"THE BIZZARE CASE OF GLORIA RAMIREZ: THE TOXIC LADY AND THE ENIGMATIC MEDICAL MYSTERY"**
 
 **Introduction:**
 In the quiet town of Riverside, a routine evening at Riverside General Hospital took a chilling turn when Gloria Ramirez, a seemingly ordinary woman, was admitted with severe respiratory distress. Little did the medical team know that this case would evolve into one of the most enigmatic and unsettling medical mysteries in history.
