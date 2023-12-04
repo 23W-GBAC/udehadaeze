@@ -1,9 +1,9 @@
 ![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/cbc2afc0-6a5c-4103-adcf-0df6033cdae9)
 
 # TRUE CRIME, STRANGE, DARK & MYSTERIOUS STORIES (BASED ON ACTUAL EVENTS)
-In this blog we are going to be exploring a series of stories which are based on true & actual events. Together we would be exploring some of the world's most infamous cases which you may or may not have heard about.
 
-If you are a fan of True crime, The Strange, The Dark & The Mysterious then you have come to the right place. 
+If you are a fan of True crime, Strange, Dark & Mysterious stories, then you have come to the right place. 
+In this blog we are going to be exploring a series of stories which are based on true & actual events. Together we would be taking a look at some of the world's most infamous cases which you may or may-not have heard about.   
 WARNING: All STORIES ARE BASED ON TRUE & ACTUAL EVENTS.
 
 **25 Health and wellness blogs worth checking out**
