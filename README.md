@@ -21,7 +21,7 @@ Gloria Ramirez had cervical cancer and was admitted into the emergency room due 
 
 **The Incident:**
 
-During her treatment in the emergency room, the medical staff noticed some unusual symptoms. They reported a strange, fruity, garlic-like odor coming from Gloria's body. Some staff members also noticed that her skin appeared like it was covered in an oily sheen. 
+During her treatment in the emergency room, the medical staff noticed some unusual symptoms. They reported a strange & pungent fruity/garlic-like odor coming from Gloria's body. Some staff members also noticed that her skin appeared like it was covered in an oily sheen. 
 As the medical team attempted to draw blood, they observed an unusual manila-colored substance in her blood sample, Strange oily/ crystal like particles floated in her blood and her blood smelled like Ammonia.
 
 **Healthcare Workers Affected:**
