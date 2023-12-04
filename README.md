@@ -16,7 +16,8 @@ For the first case in this series, i will be discussing: **THE BIZZARE CASE OF G
 
 **Background:**
 
-On the night of February 19, 1994, Gloria Ramirez, a 31-year-old mother of two, arrived at the emergency room of the Riverside General Hospital. Gloria Ramirez had cervical cancer and was admitted into the emergency room due to complications related to her cancer. She was experiencing tachycardia (rapid heart rate) and hypotension (low blood pressure). However, as medical staff attempted to treat her, they were met with a series of bizarre and unprecedented events that would leave them baffled.
+On the night of February 19, 1994, Gloria Ramirez, a 31-year-old mother of two, arrived at the emergency room of the Riverside General Hospital. 
+Gloria Ramirez had cervical cancer and was admitted into the emergency room due to complications related to her cancer. She was experiencing tachycardia (rapid heart rate) and hypotension (low blood pressure). However, as medical staff attempted to treat her, they were met with a series of bizarre and unprecedented events that would leave them baffled.
 
 **The Incident:**
 
