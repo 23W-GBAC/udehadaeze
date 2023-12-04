@@ -1,5 +1,8 @@
 ![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/a5345514-53e3-46ab-939b-aeca3f15c06f)
 
+![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/48b84089-37b5-4e45-8f38-9d1baf93e87f)
+
+
 
 # TRUE CRIME, STRANGE, DARK & MYSTERIOUS STORIES (BASED ON ACTUAL EVENTS)
 If you are a fan of True crime, Strange, Dark & Mysterious stories, then you have come to the right place. 
