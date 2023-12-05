@@ -9,6 +9,10 @@ In this blog we are going to be exploring a series of stories which are based on
 
 
 For the first case in this series, i will be discussing: **THE BIZZARE CASE OF GLORIA RAMIREZ: THE TOXIC LADY AND THE ENIGMATIC MEDICAL MYSTERY.**
+![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/fae4c156-d570-4a07-b06f-d07d748989ce)
+
+
+
 
 **Introduction:**
 
@@ -50,9 +54,6 @@ Scientists and toxicologists grappled with the uncertainties surrounding Gloria'
 
 Despite extensive investigations, the case of Gloria Ramirez remains unsolved with no conclusive explanation for the bizarre symptoms and conflicting autopsy results. It stands as one of the most perplexing and debated cases in medical history, leaving a legacy of unanswered questions and scientific uncertainty. The incident highlighted the challenges in deciphering complex medical mysteries and underscored the need for rigorous scientific inquiry as well as concerns about the safety of healthcare workers and the handling of potentially toxic cases.
 
-
-BELOW IS AN ACTUAL IMAGE OF GLORIA RAMIREZ
-![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/4852be16-1ca4-40b1-ad98-40851cf32072)
 
 
 
