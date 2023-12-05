@@ -9,6 +9,7 @@ In this blog we are going to be exploring a series of stories which are based on
 
 
 For the first case in this series, i will be discussing: **THE BIZZARE CASE OF GLORIA RAMIREZ: THE TOXIC LADY AND THE ENIGMATIC MEDICAL MYSTERY.**
+
 ![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/fae4c156-d570-4a07-b06f-d07d748989ce)
 
 
