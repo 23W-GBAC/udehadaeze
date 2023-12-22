@@ -1,49 +1,33 @@
 import java.util.Scanner;
 
 public class Genotype {
-    public static void main(String[] args) {
-        genotypeCalculator();
-    }
-
-    public static void genotypeCalculator() {
+    public static void genotypeCalculator(String father, String mother) {
         Scanner keyboard = new Scanner(System.in);
-
-        System.out.print("Enter the genotype for Father: ");
+        
+        System.out.print("Please enter the genotype for Father: ");
         String fatherGenotype = keyboard.next();
-
-        System.out.print("Enter the genotype for Mother: ");
+        
+        System.out.print("Please enter the genotype for Mother: ");
         String motherGenotype = keyboard.next();
-
-        String childGenotype = determineChildGenotype(fatherGenotype, motherGenotype);
-
-        if (childGenotype != null) {
-            System.out.println("The child's genotype is: " + childGenotype);
+        
+        if ((fatherGenotype.equals("AA") && motherGenotype.equals("AS")) || (fatherGenotype.equals("AS") && motherGenotype.equals("AA"))) {
+            System.out.println("Parents have a 50:50 chance of having a child with AA genotype or AS genotype");
+        } else if ((fatherGenotype.equals("AA") && motherGenotype.equals("SS")) || (fatherGenotype.equals("SS") && motherGenotype.equals("AA"))) {
+            System.out.println("Parents have a 100% chance of having a child with AS genotype");
+        } else if ((fatherGenotype.equals("AS") && motherGenotype.equals("SS")) || (fatherGenotype.equals("SS") && motherGenotype.equals("AS"))) {
+            System.out.println("Parents have a 50:50 chance of having a child with AS genotype or SS genotype");
+        } else if (fatherGenotype.equals("AA") && motherGenotype.equals("AA")) {
+            System.out.println("Parents have a 100% chance of having a child with AA genotype");
+        } else if (fatherGenotype.equals("AS") && motherGenotype.equals("AS")) {
+            System.out.println("Parents have a 100% chance of having a child with AS genotype");
+        } else if (fatherGenotype.equals("SS") && motherGenotype.equals("SS")) {
+            System.out.println("Parents have a 100% chance of having a child with SS genotype");
         } else {
-            System.out.println("Invalid input entered for parent genotypes.");
+            System.out.println("Invalid input entered");
         }
     }
 
-    public static String determineChildGenotype(String father, String mother) {
-        if (isValidGenotype(father) && isValidGenotype(mother)) {
-            if ((father.equals("AA") && mother.equals("AS")) || (father.equals("AS") && mother.equals("AA"))) {
-                return "AA or AS";
-            } else if ((father.equals("AA") && mother.equals("SS")) || (father.equals("SS") && mother.equals("AA"))) {
-                return "AS";
-            } else if ((father.equals("AS") && mother.equals("SS")) || (father.equals("SS") && mother.equals("AS"))) {
-                return "AS or SS";
-            } else if (father.equals("AA") && mother.equals("AA")) {
-                return "AA";
-            } else if (father.equals("AS") && mother.equals("AS")) {
-                return "AS";
-            } else if (father.equals("SS") && mother.equals("SS")) {
-                return "SS";
-            }
-        }
-        return null;
-    }
-
-    public static boolean isValidGenotype(String genotype) {
-        // Add more conditions if needed
-        return genotype.matches("[AS]{2}");
+    public static void main(String[] args) {
+        genotypeCalculator("AA", "AS"); // You can replace these values with actual genotypes if needed.
     }
 }
