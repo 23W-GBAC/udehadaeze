@@ -59,6 +59,8 @@ Despite extensive investigations, the case of Gloria Ramirez remains unsolved wi
 
 **THE TYLENOL MURDERS**
 
+![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/6de506e5-4b81-4d4a-a90f-71b9c9ebd79f)
+
 The Tylenol murders refer to a series of poisoning incidents that occurred in the Chicago area in 1982. Seven people died after ingesting Extra-Strength Tylenol capsules that had been tampered with cyanide. The tampering took place at various locations where the bottles were distributed, and the perpetrator managed to place the poisoned capsules on store shelves.
 
 The victims, who ranged in age from 12 to 35, unknowingly consumed the tainted medication, leading to their tragic deaths. The incident led to a nationwide panic and resulted in the introduction of tamper-evident packaging for over-the-counter medications to prevent similar occurrences.
