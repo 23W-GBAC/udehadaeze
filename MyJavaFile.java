@@ -26,13 +26,13 @@ import java.util.Scanner;
 }
   public static void bmiDisplayresult(double bmiValue){
       if(bmiValue < 18.5 ){
-           System.out.println("Underweight");
+           System.out.println("You are Underweight");
       } else if (bmiValue >=18.5 && bmiValue <= 24.9){
-         System.out.println("Normal weight"); 
+         System.out.println("You are Normal weight"); 
       } else if (bmiValue >=25.0 && bmiValue <=29.9){
-          System.out.println("Overweight"); 
+          System.out.println("You are Overweight"); 
       } else {
-           System.out.println("obesity");
+           System.out.println("You are obese");
       }
       
   }
