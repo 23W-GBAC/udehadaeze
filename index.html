@@ -17,9 +17,9 @@
             var weight = parseFloat(document.getElementById('weight').value);
             var height = parseFloat(document.getElementById('height').value);
 
-           // Perform BMI calculation
-           var heightInMeters = height / 100;
-           var bmiValue = (weight / (heightInMeters * heightInMeters)).toFixed(1);
+            // Perform BMI calculation
+            var heightInMeters = height / 100;
+            var bmiValue = (weight / (heightInMeters * heightInMeters)).toFixed(1);
 
             // Determine BMI category
             var bmiCategory = "";
@@ -39,16 +39,15 @@
     </script>
 </head>
 
-<body>
-    <body>
+<body class="container">
     <img src="bmi.png" alt="BMI Calculator Image" width="600" height="350">
     <h1><strong>Welcome to Ada's BMI Calculator Website!</strong></h1>
 
-    <section>
+    <section class="container">
         <p>This website is dedicated to helping you understand and monitor your Body Mass Index (BMI). Whether you're looking to maintain a healthy lifestyle or gain insights into your fitness, our user-friendly BMI calculator provides quick results.</p>
     </section>
 
-    <section>
+    <section class="container">
         <h3>What is the body mass index (BMI)?</h3>
         <p>The body mass index (BMI) is a measure that uses your height and weight to work out if your weight is healthy.</p>
 
@@ -64,7 +63,7 @@
         </ol>
     </section>
 
-    <section>
+    <section class="container">
         <p>Explore the features of our website to calculate your BMI, learn about different BMI categories, and access valuable information tailored to your specific health goals.</p>
 
         <p><strong>Getting started is easy! Just follow these simple steps:</strong></p>
@@ -87,4 +86,3 @@
 </body>
 
 </html>
-
