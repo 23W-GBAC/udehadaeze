@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9ebee; /* Light pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* White sections */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d81b60; /* Dark pink header */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #d81b60; /* Dark pink button */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #aa1456; /* Darker pink on hover */
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
