@@ -10,18 +10,18 @@
 
     <script>
         function calculateBMI(event) {
-            // Prevent the default form submission behavior
+          
             event.preventDefault();
 
             var gender = document.getElementById('gender').value;
             var weight = parseFloat(document.getElementById('weight').value);
             var height = parseFloat(document.getElementById('height').value);
 
-            // Perform BMI calculation
+            
             var heightInMeters = height / 100;
             var bmiValue = (weight / (heightInMeters * heightInMeters)).toFixed(1);
 
-            // Determine BMI category
+           
             var bmiCategory = "";
             if (bmiValue < 18.5) {
                 bmiCategory = "Underweight";
@@ -33,7 +33,7 @@
                 bmiCategory = "Obese";
             }
 
-            // Redirect to bmiResult.html with BMI value and category
+           
             window.location.href = "bmiResult.html?bmiValue=" + bmiValue + "&bmiCategory=" + bmiCategory;
         }
     </script>
