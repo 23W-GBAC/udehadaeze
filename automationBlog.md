@@ -7,7 +7,6 @@ Introduction:
 Welcome to Ada's BMI Calculator Blog Series! In this series, we'll delve into the journey of creating an innovative online BMI calculator. To kick things off, let's explore the inception of this exciting project and the motivations behind it.
 
 The Idea:
-
 It all began with a moment of inspiration, a spark fueled by the desire to empower individuals with information about their body composition. The idea of creating a user-friendly online BMI calculator emerged from a profound interest in promoting health awareness and facilitating positive lifestyle choices. Whether driven by a personal commitment to health or a broader vision of contributing to public well-being, the inception of this project was rooted in the belief that knowledge is the key to a healthier life.
 
 Project Scope:
