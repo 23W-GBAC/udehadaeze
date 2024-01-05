@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fce4ec; /*for the Light pink background */
+    background-color: #fce4ec; /* Light pink background */
     color: #333;
     margin: 0;
     padding: 0;
@@ -12,15 +12,15 @@ body {
 }
 
 section {
-    background-color: #fff; /* for the White sections */
+    background-color: #fff; /* White sections */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* to Add margin between sections */
+    margin-bottom: 20px; /* Add margin between sections */
 }
 
 h1 {
-    color: #d81b60; /* for the Dark pink header */
+    color: #d81b60; /* Dark pink header */
     text-align: center;
     margin: 0;
     padding: 20px 0; /* Adjusted padding */
@@ -78,8 +78,6 @@ ol li:before {
     position: absolute;
     left: 0;
 }
-
-
 
     
    
