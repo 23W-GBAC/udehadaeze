@@ -6,9 +6,12 @@ body {
     padding: 0;
 }
 
-header, section {
+.container {
     max-width: 800px;
     margin: 20px auto;
+}
+
+header, section {
     background-color: #fff; /* White sections */
     padding: 20px;
     border-radius: 8px;
@@ -18,10 +21,8 @@ header, section {
 h1 {
     color: #d81b60; /* Dark pink header */
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 0;
+    padding: 20px 0; /* Adjusted padding */
 }
 
 form {
