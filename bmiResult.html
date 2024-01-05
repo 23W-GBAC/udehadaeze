@@ -2,29 +2,56 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-
+     <link rel="stylesheet" href="styles.css"> 
+    
     <meta charset="UTF-8">
     <meta name="description" content="BMI Result Page">
     <title>BMI Result</title>
 </head>
 
-<body>
+<body class="container">
     <h1>BMI Result</h1>
 
-    <p>Your BMI value is: <span id="bmiValue"></span></p>
-    <p>Your BMI category is: <span id="bmiCategory"></span></p>
-
     <script>
-        // Extract BMI value and category from URL parameters
-        const urlParams = new URLSearchParams(window.location.search);
-        const bmiValue = urlParams.get('bmiValue');
-        const bmiCategory = urlParams.get('bmiCategory');
+        // Functions to parse URL parameters
+        function getURLParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+        // this Retrieves the BMI value and category from the URL
+        const bmiValue = parseFloat(getURLParameter('bmiValue'));
+        const bmiCategory = getURLParameter('bmiCategory');
+        
+       // Displays BMI result and category
+        document.write(`<p>Your BMI is: ${bmiValue}</p>`);
+        document.write(`<p>You are in the ${bmiCategory} category</p>`);
 
-        // Display BMI value and category on the page
-        document.getElementById('bmiValue').innerText = bmiValue;
-        document.getElementById('bmiCategory').innerText = bmiCategory;
+
+        switch (bmiCategory) {
+            case "Underweight":
+                document.write("<p>It seems you are underweight. It's important to focus on gaining weight through a balanced diet rich in proteins, healthy fats, and carbohydrates.</p>");
+                document.write("<p>Consider consulting with a nutritionist to create a personalized meal plan. Incorporating strength training exercises can also help build muscle mass.</p>");
+                break;
+            case "Normal weight":
+                document.write("<p>Congratulations! You are in the healthy weight range. Keep up the good work with your healthy lifestyle.</p>");
+                document.write("<p>Continue to maintain a balanced diet and regular exercise routine. It's essential to stay active for overall well-being.</p>");
+                break;
+            case "Overweight":
+                document.write("<p>You are in the overweight range. Consider making lifestyle changes to achieve and maintain a healthy weight.</p>");
+                document.write("<p>Focus on incorporating more fruits, vegetables, and whole grains into your diet. Engage in regular physical activity, such as brisk walking or jogging, to support weight loss.</p>");
+                break;
+            case "Obese":
+                document.write("<p>Your BMI suggests obesity, which can have health implications. It's crucial to take steps towards a healthier lifestyle.</p>");
+                document.write("<p>Consult with a healthcare professional for guidance on creating a comprehensive weight management plan. This may include dietary changes, exercise, and other personalized interventions.</p>");
+                break;
+            default:
+                document.write("<p>Invalid BMI category</p>");
+        }
     </script>
+
+    <p>Remember that BMI is a general indicator, and individual health may vary. Consult with a healthcare professional for personalized advice.</p>
+
+    <a href="index.html">Back to Home</a>
 </body>
 
 </html>
