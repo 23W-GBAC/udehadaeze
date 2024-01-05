@@ -1,4 +1,5 @@
-Blog Post 1: Inception of the BMI Calculator Project
+Blog Post 1: 
+Inception of the BMI Calculator Project
 
 Introduction:
 Welcome to Ada's BMI Calculator Blog Series! In this series, we'll delve into the journey of creating an innovative online BMI calculator. To kick things off, let's explore the inception of this exciting project and the motivations behind it.
