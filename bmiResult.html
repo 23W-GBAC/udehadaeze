@@ -13,16 +13,16 @@
     <h1>BMI Result</h1>
 
     <script>
-        // Functions to parse URL parameters
+        
         function getURLParameter(name) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(name);
         }
-        // this Retrieves the BMI value and category from the URL
+      
         const bmiValue = parseFloat(getURLParameter('bmiValue'));
         const bmiCategory = getURLParameter('bmiCategory');
         
-       // Displays BMI result and category
+     
         document.write(`<p>Your BMI is: ${bmiValue}</p>`);
         document.write(`<p>You are in the ${bmiCategory} category</p>`);
 
