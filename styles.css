@@ -9,10 +9,7 @@ body {
 .container {
     max-width: 800px;
     margin: 20px auto;
-}
-
-header, section {
-    background-color: #fff; /* White sections */
+    background-color: #fff; /* White container background */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
