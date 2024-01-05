@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fce4ec; /* Light pink background */
+    background-color: #fce4ec;
     color: #333;
     margin: 0;
     padding: 0;
@@ -12,18 +12,18 @@ body {
 }
 
 section {
-    background-color: #fff; /* White sections */
+    background-color: #fff; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Add margin between sections */
+    margin-bottom: 20px; 
 }
 
 h1 {
-    color: #d81b60; /* Dark pink header */
+    color: #d81b60; 
     text-align: center;
     margin: 0;
-    padding: 20px 0; /* Adjusted padding */
+    padding: 20px 0; 
 }
 
 form {
@@ -34,7 +34,7 @@ form {
 }
 
 button {
-    background-color: #d81b60; /* Dark pink button */
+    background-color: #d81b60; 
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-    background-color: #aa1456; /* Darker pink on hover */
+    background-color: #aa1456;
 }
 
 img {
@@ -54,11 +54,11 @@ img {
 
 /* Girly Styles */
 section {
-    border: 2px solid #f48fb1; /* Light pink border */
+    border: 2px solid #f48fb1; 
 }
 
 h3 {
-    color: #d81b60; /* Dark pink heading */
+    color: #d81b60; 
 }
 
 ol {
@@ -72,7 +72,7 @@ ol li {
 }
 
 ol li:before {
-    content: "•"; /* Bullet symbol */
+    content: "•"; 
     color: #d81b60;
     font-size: 1.5em;
     position: absolute;
