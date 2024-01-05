@@ -3,8 +3,9 @@
 **Inception of the BMI Calculator Project**
 
 Introduction:
+For me, there was some confusion in regards to the Automation Blog. At first I thought the README.md was the main blog, as a result I dedicated most of my time into constantly updating my README.md file. 
 
-Welcome to Ada's BMI Calculator Blog Series! In this series, we'll delve into the journey of creating an innovative online BMI calculator. To kick things off, let's explore the inception of this exciting project and the motivations behind it.
+Nevertheless, I am glad to Welcome you to Ada's BMI Calculator Blog Series! In this series, we'll delve into the journey of creating an innovative online BMI calculator. To kick things off, let's explore the inception of this exciting project and the motivations behind it.
 
 The Idea:
 
