@@ -7,7 +7,10 @@
     <title>Ada's BMI Calculator Homepage</title>
 
     <script>
-        function calculateBMI() {
+        function calculateBMI(event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+
             var gender = document.getElementById('gender').value;
             var weight = parseFloat(document.getElementById('weight').value);
             var height = parseFloat(document.getElementById('height').value);
@@ -62,7 +65,7 @@
         <p>Explore the features of our website to calculate your BMI, learn about different BMI categories, and access valuable information tailored to your specific health goals.</p>
 
         <p><strong>Getting started is easy! Just follow these simple steps:</strong></p>
-        <form onsubmit="calculateBMI(); return false;">
+        <form onsubmit="calculateBMI(event);">
             <label for="gender">Gender:</label>
             <select id="gender" name="gender" required>
                 <option value="male">Male</option>
@@ -81,3 +84,4 @@
 </body>
 
 </html>
+
