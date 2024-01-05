@@ -1,7 +1,7 @@
-# 05/01/2024
-**Blog Post 1:** 
+# Blog Post 1: 
+**05/01/2024**
 
-Inception of the BMI Calculator Project
+**Inception of the BMI Calculator Project**
 
 Introduction:
 
