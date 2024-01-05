@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BMI Result Page">
+    <title>BMI Result</title>
+</head>
+
+<body>
+    <h1>BMI Result</h1>
+
+    <p>Your BMI value is: <span id="bmiValue"></span></p>
+    <p>Your BMI category is: <span id="bmiCategory"></span></p>
+
+    <script>
+        // Extract BMI value and category from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const bmiValue = urlParams.get('bmiValue');
+        const bmiCategory = urlParams.get('bmiCategory');
+
+        // Display BMI value and category on the page
+        document.getElementById('bmiValue').innerText = bmiValue;
+        document.getElementById('bmiCategory').innerText = bmiCategory;
+    </script>
+</body>
+
+</html>
