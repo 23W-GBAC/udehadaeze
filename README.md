@@ -71,6 +71,8 @@ The identity of the perpetrator remains unknown, and the case is still unsolved.
 
 **The Ghosts of Flight 401**
 
+![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/605ae4e3-f391-44c7-bfff-241306ecad0a)
+
 The Ghosts of Flight 401 refers to a series of alleged paranormal events associated with Eastern Air Lines Flight 401, which crashed in the Florida Everglades in December 1972. The crash resulted in a number of fatalities, and some of the aircraft's salvageable parts were subsequently used in other Eastern Air Lines planes.
 
 After the crash, there were reports from Eastern Air Lines employees and passengers that the ghosts of the deceased crew members began appearing on other planes that had components salvaged from Flight 401. These ghostly sightings were said to occur in the form of apparitions or voices, with some witnesses claiming to have seen the spirits in the galley or cockpit.
