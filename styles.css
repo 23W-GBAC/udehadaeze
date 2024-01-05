@@ -17,6 +17,11 @@ header, section {
 
 h1 {
     color: #d81b60; /* Dark pink header */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 form {
@@ -44,3 +49,4 @@ img {
     display: block;
     margin: 20px auto;
 }
+
