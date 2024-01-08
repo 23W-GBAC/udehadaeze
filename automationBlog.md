@@ -65,7 +65,7 @@ One notable challenge was optimizing the user experience for various devices. En
 
 Solutions and Optimizations:
 
-Facing challenges head-on, I implemented innovative solutions to ensure a seamless user experience. Algorithmic refinements were made to enhance the accuracy of the BMI categorization. 
+I implemented innovative solutions to ensure a seamless user experience. Algorithmic refinements were made to enhance the accuracy of the BMI categorization. 
 Regular code reviews played a pivotal role in identifying areas for improvement. Continuous optimization became a guiding principle, reflecting on my commitment to delivering a top-tier BMI calculator.
 
 Testing Phase:
