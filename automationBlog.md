@@ -1,4 +1,4 @@
-![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/719f04e8-c604-402d-9b42-6e8ac376471b)
+![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/90b614ab-1bfa-40e2-8121-1de738bd46dc)
 
 # About Myself & My Automation
 Hello, I'm Adaeze Udeh, a first-year Health Informatics student passionate about blending health with technology. In my journey of exploration and learning, I embarked on an exciting automation project – the creation of a BMI (Body Mass Index) calculator.
