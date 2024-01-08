@@ -41,6 +41,9 @@ The choice of these technologies not only aligns with industry standards but als
 BMI Calculation Formula:
 
 At the core of my BMI calculator lies the BMI calculation formula. The mathematical equation used is BMI = weight / (height * height). This formula, widely accepted for its simplicity and effectiveness, calculates the BMI value based on user-provided weight (in kilograms) and height (in meters).
+function calculateBMI(event) {
+    var bmiValue = (weight / (heightInMeters * heightInMeters)).toFixed(1);
+}
 
 Challenges Faced:
 
