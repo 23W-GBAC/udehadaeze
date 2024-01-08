@@ -77,3 +77,5 @@ In the next segment of my blog series, we'll explore the user interface design a
 
 Stay tuned for the next installment as we navigate the design intricacies of my BMI calculator!
 
+
+Tools used during the prepartion of this project include: Chatgpt, Google.com & Youtube.com
