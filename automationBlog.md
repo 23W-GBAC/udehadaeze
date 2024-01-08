@@ -25,7 +25,7 @@ It all began with a moment of inspiration, a spark fueled by the desire to empow
 
 Project Scope:
 
-My BMI calculator isn't just another online tool; it's a comprehensive platform designed to provide quick and insightful results. With a focus on user-friendly features, my calculator aims to stand out from the crowd. As we delve deeper into the project, you'll discover what makes our BMI calculator unique and how it caters to the diverse needs of its users.
+My BMI calculator isn't just another online tool; it's a comprehensive platform designed to provide quick and insightful results. With a focus on user-friendly features, my calculator aims to stand out from the crowd. As we delve deeper into the project, you'll discover what makes my BMI calculator unique and how it caters to the diverse needs of its users.
 
 The Planning Phase:
 
