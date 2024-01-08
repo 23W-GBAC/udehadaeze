@@ -2,6 +2,7 @@
 Hello, I'm Adaeze Udeh, a first-year Health Informatics student passionate about blending health with technology. In my journey of exploration and learning, I embarked on an exciting automation project – the creation of a BMI (Body Mass Index) calculator.
 
 What is BMI?
+
 Body Mass Index (BMI) is a numerical measure of an individual's body fat based on their weight and height. It is a widely used tool in healthcare to quickly assess whether a person has a healthy body weight. BMI is important as it helps identify potential health risks associated with being underweight or overweight, serving as a screening tool for conditions like obesity-related diseases and providing a basis for discussions about lifestyle and health.
 As someone diving into the world of health informatics, I found the concept of BMI fascinating and saw an opportunity to contribute to health awareness through automation.
 
