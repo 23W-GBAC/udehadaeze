@@ -42,7 +42,7 @@ BMI Calculation Formula:
 
 At the core of my BMI calculator lies the BMI calculation formula. The mathematical equation used is BMI = weight / (height * height). This formula, widely accepted for its simplicity and effectiveness, calculates the BMI value based on user-provided weight (in kilograms) and height (in meters).
 
-![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/8efe89d1-f9f5-48b1-8c64-4c49428054df)
+![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/aa4d8bf5-4127-4c50-819c-4f5eff4db86f)
 
 
 Challenges Faced:
