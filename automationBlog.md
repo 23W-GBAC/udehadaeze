@@ -1,3 +1,6 @@
+![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/848cccb0-92ca-471a-8522-db2ce22eedd5)
+
+
 ![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/90b614ab-1bfa-40e2-8121-1de738bd46dc)
 
 # About Myself & My Automation
