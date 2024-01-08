@@ -57,7 +57,6 @@ At the core of my BMI calculator lies the BMI calculation formula. The mathemati
 
 ![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/aa4d8bf5-4127-4c50-819c-4f5eff4db86f)
 
-![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/4655beaf-68bc-45da-848f-5eeb0bc1b997)
 
 Challenges Faced:
 
