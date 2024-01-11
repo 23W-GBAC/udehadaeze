@@ -71,6 +71,10 @@ Some of the notable challanges I faced during my Automation include the followin
 For my first challange, Ensuring that users input a numeric value was essential. I implemented input validation using the type="number" attribute in HTML <input> tags. This attribute restricts user input to numeric values, and the required attribute ensures users provide a value for the input fields.
 ![ensure2](https://github.com/23W-GBAC/udehadaeze/assets/148863379/0ed0fbde-6dd6-488c-8957-2b0bfcc32442)
 
+![ensure](https://github.com/23W-GBAC/udehadaeze/assets/148863379/772ae1c7-1ef9-4061-90af-4426c26310ba)
+
+
+
 **2. Handling GitHub Pages Linking:**
 
 Another challenge I encountered was linking both my index.html file (BMI calculator website) and my automationBlog.md to GitHub Pages. Initially, GitHub Pages displayed only the content of my index.html file. To address this, I needed a way to link both files so that when users are on my BMI calculator website and click the "Automation Blog" link, the page automatically redirects them to my GitHub repository. I solved this problem by creating a blog.html file, which is linked to my index.html. This allows users to access my automation blog post directly from my website.
