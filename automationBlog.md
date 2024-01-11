@@ -1,3 +1,23 @@
+ var bmiCategory = "";
+            if (bmiValue < 18.5) {
+                bmiCategory = "Underweight";
+            } else if (bmiValue >= 18.5 && bmiValue <= 24.9) {
+                bmiCategory = "Normal weight";
+            } else if (bmiValue >= 25.0 && bmiValue <= 29.9) {
+                bmiCategory = "Overweight";
+            } else {
+                bmiCategory = "Obese";
+            }
+
+
+
+
+
+
+
+
+
+
 ![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/90b614ab-1bfa-40e2-8121-1de738bd46dc)
 
 # About Myself & My Automation
