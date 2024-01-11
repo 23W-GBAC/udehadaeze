@@ -58,15 +58,32 @@ At the core of my BMI calculator lies the BMI calculation formula. The mathemati
 ![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/aa4d8bf5-4127-4c50-819c-4f5eff4db86f)
 
 
-Challenges Faced:
+Challenges Faced,Solutions and Optimizations:
 
 Embarking on the coding journey inevitably presented challenges. From crafting complex algorithms for BMI categorization to addressing unexpected issues during the implementation phase, every challenge was an opportunity to refine and enhance the BMI calculator.
-One notable challenge was optimizing the user experience for various devices. Ensuring the calculator's responsiveness across different screen sizes required thoughtful design decisions and testing iterations.
-
-Solutions and Optimizations:
-
 I implemented innovative solutions to ensure a seamless user experience. Algorithmic refinements were made to enhance the accuracy of the BMI categorization. 
 Regular code reviews played a pivotal role in identifying areas for improvement. Continuous optimization became a guiding principle, reflecting on my commitment to delivering a top-tier BMI calculator.
+
+Some of the notable challanges I faced during my Automation include the following:
+
+Input Validation:
+Ensuring that users input a numeric value was essential. I implemented input validation using the type="number" attribute in HTML <input> tags. This attribute restricts user input to numeric values, and the required attribute ensures users provide a value for the input fields.
+![ensure2](https://github.com/23W-GBAC/udehadaeze/assets/148863379/0ed0fbde-6dd6-488c-8957-2b0bfcc32442)
+
+Handling GitHub Pages Linking:
+One of the challenges I encountered was linking both my index.html file (BMI calculator website) and my automationBlog.md to GitHub Pages. Initially, GitHub Pages displayed only the content of my index.html file. To address this, I needed a way to link both files so that when users are on my BMI calculator website and click the "Automation Blog" link, the page automatically redirects them to my GitHub repository. I solved this problem by creating a blog.html file, which is linked to my index.html. This allows users to access my automation blog post directly from my website.
+![redirect](https://github.com/23W-GBAC/udehadaeze/assets/148863379/fdce7c5f-93a6-4acb-b167-9987c445e2ed)
+
+Result Precision Control:
+Another issue I noticed was the calculator printing results with numerous decimal places. To address this, I wanted the result to have no more than one decimal value. I used toFixed(1) in my JavaScript to limit the result to one decimal place.
+![fixed](https://github.com/23W-GBAC/udehadaeze/assets/148863379/10a6a11b-a034-4199-b3cb-2abee9a982bf)
+
+
+Centering Website Content:
+Centering the content of my website posed a challenge. I resolved this by incorporating a container class in my CSS file. The .container class, with max-width and margin: 20px auto; properties, ensures the horizontal centering of content, providing a clean and organized layout.
+![container](https://github.com/23W-GBAC/udehadaeze/assets/148863379/fdc3384e-b197-469b-bd38-63cbdddaa4ac)
+
+
 
 Testing Phase:
 
