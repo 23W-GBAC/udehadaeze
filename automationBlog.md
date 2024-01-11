@@ -79,14 +79,12 @@ Another challenge I encountered was linking both my index.html file (BMI calcula
 **3. Result Precision Control:**
 
 I noticed that my BMI calculator was printing results having numerous decimal places. To address this, I wanted the result to have no more than one decimal value. I used toFixed(1) in my JavaScript to limit the result to one decimal place.
-![fixed](https://github.com/23W-GBAC/udehadaeze/assets/148863379/10a6a11b-a034-4199-b3cb-2abee9a982bf)
-
+![fixed2](https://github.com/23W-GBAC/udehadaeze/assets/148863379/2d344c1a-f71e-4368-94e1-920c8aed34c0)
 
 **4.Centering Website Content:**
 
 Centering the content of my website posed a challenge. I resolved this by incorporating a container class in my CSS file. The .container class, with max-width and margin: 20px auto; properties, ensures the horizontal centering of content, providing a clean and organized layout.
-![container](https://github.com/23W-GBAC/udehadaeze/assets/148863379/fdc3384e-b197-469b-bd38-63cbdddaa4ac)
-
+![container](https://github.com/23W-GBAC/udehadaeze/assets/148863379/893c09bc-6a7f-4d4c-bfa9-49f35884df8a)
 
 
 Testing Phase:
