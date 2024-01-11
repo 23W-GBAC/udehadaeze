@@ -68,7 +68,7 @@ Some of the notable challanges I faced during my Automation include the followin
 
 **1. Input Validation:**
 
-Ensuring that users input a numeric value was essential. I implemented input validation using the type="number" attribute in HTML <input> tags. This attribute restricts user input to numeric values, and the required attribute ensures users provide a value for the input fields.
+For my first challange, Ensuring that users input a numeric value was essential. I implemented input validation using the type="number" attribute in HTML <input> tags. This attribute restricts user input to numeric values, and the required attribute ensures users provide a value for the input fields.
 ![ensure2](https://github.com/23W-GBAC/udehadaeze/assets/148863379/0ed0fbde-6dd6-488c-8957-2b0bfcc32442)
 
 **2. Handling GitHub Pages Linking:**
