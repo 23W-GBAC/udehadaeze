@@ -11,9 +11,7 @@ As someone diving into the world of health informatics, I found the concept of B
 To access my BMI calculator, simply use the link: https://23w-gbac.github.io/udehadaeze/
   
 
-# Blog Post 1: 
-
-**Inception of the BMI Calculator Project**
+# Blog Post 1: Inception of the BMI Calculator Project
 
 For me, there was some confusion in regards to the Automation Blog. At first I thought the README.md file was the main blog, as a result I dedicated most of my time into constantly updating my README.md file. 
 
@@ -37,9 +35,7 @@ Stay tuned for the next installment as we dive into the coding process, unraveli
 
 
 
-# Blog Post 2:
-
-**The Coding Journey**
+# Blog Post 2: The Coding Journey
 
 **Introduction:**
 
