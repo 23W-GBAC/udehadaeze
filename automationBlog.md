@@ -41,7 +41,7 @@ Stay tuned for the next installment as we dive into the coding process, unraveli
 
 **The Coding Journey**
 
-Introduction:
+**Introduction:**
 
 As we continue our journey into the development of Ada's BMI Calculator, we transition from the inspiring idea phase to the heart of the project—the coding journey. In this phase, the conceptual vision transforms into a functional tool ready to empower users with valuable health insights.
 
@@ -74,7 +74,7 @@ Embarking on the coding journey inevitably presented challenges. From crafting c
 I implemented innovative solutions to ensure a seamless user experience. Algorithmic refinements were made to enhance the accuracy of the BMI categorization. 
 Regular code reviews played a pivotal role in identifying areas for improvement. Continuous optimization became a guiding principle, reflecting on my commitment to delivering a top-tier BMI calculator.
 
-Some of the notable challanges I faced during my Automation include the following:
+**Some of the notable challanges I faced during my Automation include the following:**
 
 1. Input Validation:
 
