@@ -57,8 +57,8 @@ At the core of my BMI calculator lies the BMI calculation formula. The mathemati
 
 ![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/aa4d8bf5-4127-4c50-819c-4f5eff4db86f)
 
-How to use Ada's BMI calculator:
 
+How to use Ada's BMI calculator:
 Using my BMI calculator is a straightforward process that analyzes inputted weight and height for BMI assessment. To get started, follow these simple steps:
 1. Access the Calculator: To access my BMI calculator, simply use the link: https://23w-gbac.github.io/udehadaeze/
 2. Gender Selection: Upon reaching the website, select your gender.
