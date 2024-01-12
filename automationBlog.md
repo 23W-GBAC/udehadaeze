@@ -61,13 +61,9 @@ How to use Ada's BMI calculator:
 
 Using my BMI calculator is a straightforward process that analyzes inputted weight and height for BMI assessment. To get started, follow these simple steps:
 1. Access the Calculator: To access my BMI calculator, simply use the link: https://23w-gbac.github.io/udehadaeze/
-
 2. Gender Selection: Upon reaching the website, select your gender.
-
 3. Input Weight and Height: Enter your weight in kilograms and your height in centimeters into the designated fields.
-
 4. Calculation: Press the "Calculate" button and patiently wait for your result.
-
 5. Result Categorization: Once the calculation is complete, you will be placed into one of five BMI categories & you would be shown specific content Information depending on the BMI category you fall into. 
 
 
