@@ -106,7 +106,7 @@ Stay tuned for the next installment as we navigate the design intricacies of my 
 
 # Blog Post 3: Designing a User-Centric Interface
 
-**ATTENTION!!!: Please note that to gain a comprehensive understanding of the user interface design discussed in this section of the blog post, it is recommended that you visit my BMI calculator website at https://23w-gbac.github.io/udehadaeze/. This visit will provide you with a visual context for the upcoming discussion in this chapter."**
+**ATTENTION!!! : Please note, to gain a comprehensive understanding of the user interface design discussed in this section of the blog post, it is recommended that you visit my BMI calculator website at https://23w-gbac.github.io/udehadaeze/. This visit will provide you with a visual context for the upcoming discussion in this chapter."**
 
 **Introduction:**
 
