@@ -106,6 +106,8 @@ Stay tuned for the next installment as we navigate the design intricacies of my 
 
 # Blog Post 3: Designing a User-Centric Interface
 
+**ATTENTION!!!: Please note that to gain a comprehensive understanding of the user interface design discussed in this section of the blog post, it is recommended that you visit my BMI calculator website at https://23w-gbac.github.io/udehadaeze/. This visit will provide you with a visual context for the upcoming discussion in this chapter."**
+
 **Introduction:**
 
 Welcome back to Ada's BMI Calculator Blog Series! In the previous installments, we explored the inception and coding journey of this innovative BMI calculator. Now, let's delve into the fascinating realm of user interface design, unraveling the intricacies behind creating a visually appealing and user-friendly BMI calculator.
