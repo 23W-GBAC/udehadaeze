@@ -69,6 +69,8 @@ Using my BMI calculator is a straightforward process that analyzes inputted weig
 **5. Result Categorization:** Once the calculation is complete, you will be placed into one of five BMI categories & you would be shown specific content Information depending on the BMI category you fall into. 
 
 
+
+
 **Challenges Faced,Solutions and Optimizations:**
 
 Embarking on the coding journey inevitably presented challenges. From crafting complex algorithms for BMI categorization to addressing unexpected issues during the implementation phase, every challenge was an opportunity to refine and enhance the BMI calculator.
