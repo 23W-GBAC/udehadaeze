@@ -142,7 +142,7 @@ Typography significantly impacts readability and the overall user experience. A 
 
 The true magic of the BMI calculator lies in its dynamic nature. As users input their weight and height, the interface responds in real-time, providing not just the BMI value but also categorizing it into specific health ranges. This interactive element adds an engaging touch to the user experience, making health assessment a more personalized and insightful journey.
 
-Conclusion:
+**Conclusion:**
 
 Designing the user interface of Ada's BMI Calculator was a captivating journey that merged functionality with aesthetics. By prioritizing user-centric design principles and leveraging the power of CSS, the BMI calculator now stands as a testament to the seamless integration of form and function.
 Stay tuned for the fourth installment, as we conclude Ada's BMI Calculator Blog Series with a comprehensive overview of the project's impact and the road ahead!
