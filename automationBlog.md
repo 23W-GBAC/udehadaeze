@@ -131,11 +131,11 @@ The "Calculate" button takes center stage as the primary call-to-action, strateg
 
 **Visual Feedback:**
 
-The implementation of visual cues is crucial for user feedback. For instance, when the user hovers over the 'Calculate' button, it undergoes a dynamic color transition, changing from a light pink hue to a darker shade of pink. These real-time visual changes, including color shifts, occur seamlessly as users interact with the calculator. This not only enhances the user experience but also assures users that their inputs are being processed effectively
+The implementation of visual cues is crucial for user feedback. For instance, when the user hovers over the 'Calculate' button, it undergoes a dynamic color transition, changing from a light pink hue to a darker shade of pink. These real-time visual changes, including color shifts, occur seamlessly as users interact with the calculator. This not only enhances the user experience but also assures users that their inputs are being processed effectively.
 
 **The Role of CSS in User Interface Enhancement:**
 
-CSS played a pivotal role in elevating the aesthetics of Ada's BMI Calculator. By leveraging CSS properties such as color schemes, font choices, and responsive design, the goal was to create an interface that not only functions well but also captivates the user's attention
+CSS played a pivotal role in elevating the aesthetics of Ada's BMI Calculator. By leveraging CSS properties such as color schemes, font choices, and responsive design, the goal was to create an interface that not only functions well but also captivates the user's attention.
 
 1. Color Scheme:
 
