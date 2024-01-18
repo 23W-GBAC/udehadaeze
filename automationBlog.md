@@ -135,7 +135,7 @@ The implementation of visual cues is crucial for user feedback. For instance, wh
 
 **The Role of CSS in User Interface Enhancement:**
 
-CSS played a pivotal role in elevating the aesthetics of Ada's BMI Calculator. By leveraging CSS properties such as color schemes, font choices, and responsive design, the goal was to create an interface that not only functions well but also captivates the user's attention.
+CSS played a pivotal role in elevating the aesthetics of Ada's BMI Calculator. By leveraging CSS properties such as color schemes, font choices, and responsive design, the goal was to create an interface that not only functions well but also captivates the user's attention
 
 1. Color Scheme:
 
