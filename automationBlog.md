@@ -72,6 +72,7 @@ Beyond immediate goals, the planning phase delved into the long-term vision for 
 **Educational Content Integration:**
 
 The planning phase expanded to include the integration of educational content within the BMI calculator platform. Beyond providing numerical results, the platform would offer informative personalized tips to educate users about the significance of BMI, the impact of lifestyle choices, and practical tips for maintaining a healthy lifestyle.
+
 Stay tuned for the upcoming segments, where we delve into the fascinating world of coding and witness the transformation of ideas into a fully functional BMI calculator!
 
 
