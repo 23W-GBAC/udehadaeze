@@ -163,7 +163,7 @@ In the world of web development, the user interface serves as the vital link bet
 
 **Intuitive Layout:**
 
-The arrangement of elements on the page was meticulously planned for a clean and straightforward experience. The layout focuses on simplicity, allowing users to navigate the BMI calculator without unnecessary distractions. This user-centric design ensures that users can easily input their weight and height, creating a seamless experience.
+The design of the page prioritizes a clean and intuitive user experience, with careful consideration given to the arrangement of elements. Emphasizing simplicity, the layout enables users to navigate the BMI calculator effortlessly, devoid of any unnecessary complexities. This user-oriented approach guarantees that individuals can input their weight and height smoothly, resulting in a streamlined interaction.
 
 **Clear Call-to-Action:**
 
