@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Ada's BMI Calculator is designed to empower individuals with information about their body composition. Our mission is to promote health awareness and encourage positive lifestyle choices">
+    <title>Ada's BMI Calculator Homepage</title>
+
+    <script>
+        function calculateBMI(event) {
+          
+            event.preventDefault();
+
+            var gender = document.getElementById('gender').value;
+            var weight = parseFloat(document.getElementById('weight').value);
+            var height = parseFloat(document.getElementById('height').value);
+
+            
+            var heightInMeters = height / 100;
+            var bmiValue = (weight / (heightInMeters * heightInMeters)).toFixed(1);
+
+           
+            var bmiCategory = "";
+            if (bmiValue < 18.5) {
+                bmiCategory = "Underweight";
+            } else if (bmiValue >= 18.5 && bmiValue <= 24.9) {
+                bmiCategory = "Normal weight";
+            } else if (bmiValue >= 25.0 && bmiValue <= 29.9) {
+                bmiCategory = "Overweight";
+            } else {
+                bmiCategory = "Obese";
+            }
+
+           
+            window.location.href = "bmiResult.html?bmiValue=" + bmiValue + "&bmiCategory=" + bmiCategory;
+        }
+    </script>
+</head>
+
+<body class="container">
+    <nav>
+        <ul>
+            <li><a href="blog.html">Click here to access My Automation Blog</a></li>
+        </ul>
+    </nav>
+    
+    <img src="bmi.png" alt="BMI Calculator Image" width="600" height="350">
+    <h1><strong>Welcome to Ada's BMI Calculator!</strong></h1>
+    
+    <section class="container">
+        <p>Created by Adaeze Udeh.</p>
+        <p>This website is dedicated to helping you understand and monitor your Body Mass Index (BMI). Whether you're looking to maintain a healthy lifestyle or gain insights into your fitness, our user-friendly BMI calculator provides quick results.</p>
+    </section>
+
+    <section class="container">
+        <h3>What is the body mass index (BMI)?</h3>
+        <p>The body mass index (BMI) is a measure that uses your height and weight to work out if your weight is healthy.</p>
+
+        <p>For most adults, an ideal BMI is in the 18.5 to 24.9 range.</p>
+
+        <p><strong>BMI Range :</strong></p>
+        <ol>
+            <li>below 18.5 – you're in the underweight range</li>
+            <li>between 18.5 and 24.9 – you're in the healthy weight range</li>
+            <li>between 25 and 29.9 – you're in the overweight range</li>
+            <li>between 30 or 39.9 – you're in the obese range</li>
+            <li>40 or over – you're in the severely obese range</li>
+        </ol>
+    </section>
+
+    <section class="container">
+        <p>Explore the features of our website to calculate your BMI, learn about different BMI categories, and access valuable information tailored to your specific health goals.</p>
+
+        <p><strong>Getting started is easy! Just follow these simple steps:</strong></p>
+        <form onsubmit="calculateBMI(event);">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" required><br>
+
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" name="height" required><br>
+
+            <button type="submit">Calculate</button>
+        </form>
+    </section>
+     <nav>
+        <ul>
+            <li><a href="blog.html">Click here to access My Automation Blog</a></li>
+        </ul>
+    </nav>
+     
+    
+</body>
+
+</html>
