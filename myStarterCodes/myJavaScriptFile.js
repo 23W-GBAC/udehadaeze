@@ -26,7 +26,7 @@ function bmiDisplayResult(bmiValue) {
 console.log("WELCOME to Ada's BMICalculator!!!");
 console.log("Notice: This Calculator is intended for use by individuals over the age of 18");
 
-rl.question("Enter your Gender: ", (gender) => {
+rl.question("Enter your Gender: ", (_gender) => {
   rl.question("Enter your Weight in kg: ", (weightInput) => {
     const weight = parseFloat(weightInput);
 
