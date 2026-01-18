@@ -1,11 +1,12 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "indent": 4,
+    "indentation": 4,
     "no-duplicate-selectors": true,
     "selector-pseudo-element-colon-notation": "double",
     "font-family-name-quotes": null,
     "color-function-notation": null,
+    "color-function-alias-notation": null,
     "alpha-value-notation": null
   }
 }
