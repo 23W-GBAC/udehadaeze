@@ -34,7 +34,6 @@ jobs:
           for file in index.html blog.html bmiResult.html myStarterCodes/calculateBMI.html myStarterCodes/hompage.html; do
             if [ -f "$file" ]; then
               echo "Found: $file"
-              # Basic HTML structure check
               if grep -q "<!DOCTYPE html>" "$file" || grep -q "<html" "$file"; then
                 echo "   Valid HTML structure detected"
               fi
@@ -48,7 +47,6 @@ jobs:
           echo "Checking CSS file..."
           if [ -f "styles.css" ]; then
             echo "styles.css found"
-            # Check if file has content
             if [ -s "styles.css" ]; then
               echo "   File contains content"
             else
@@ -62,7 +60,6 @@ jobs:
           if [ -f "myStarterCodes/myJavaScriptFile.js" ]; then
             echo "myJavaScriptFile.js found"
           fi
-          # Check for inline scripts in HTML
           if grep -r "<script>" *.html 2>/dev/null; then
             echo "Inline JavaScript found in HTML files"
           fi
@@ -80,7 +77,6 @@ jobs:
       - name: Lint HTML files
         run: |
           echo "Linting HTML files..."
-          # Find and lint all HTML files
           HTML_ERRORS=0
           for file in $(find . -name "*.html" -type f -not -path "./.git/*"); do
             echo "Checking $file..."
@@ -129,7 +125,6 @@ jobs:
             fi
             echo "All JavaScript files passed linting!"
           fi
-          # Check for inline scripts in HTML files (warning only)
           if find . -name "*.html" -type f -exec grep -l "<script>" {} \; 2>/dev/null | grep -q .; then
             echo "Warning: Inline JavaScript found in HTML files (consider moving to external files)"
           fi
