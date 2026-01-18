@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #fce4ec;
     color: #333;
     margin: 0;
@@ -16,7 +16,8 @@ section {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    border: 2px solid #f48fb1; 
 }
 
 h1 {
@@ -52,11 +53,6 @@ img {
     margin: 20px auto;
 }
 
-
-section {
-    border: 2px solid #f48fb1; 
-}
-
 h3 {
     color: #d81b60; 
 }
@@ -71,7 +67,7 @@ ol li {
     position: relative;
 }
 
-ol li:before {
+ol li::before {
     content: "•"; 
     color: #d81b60;
     font-size: 1.5em;
