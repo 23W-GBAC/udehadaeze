@@ -74,7 +74,7 @@ jobs:
 
       - name: Install linting tools
         run: |
-          npm install -g htmlhint stylelint stylelint-config-standard eslint prettier
+          npm install -g htmlhint stylelint stylelint-config-recommended eslint prettier
           npm list -g --depth=0
 
       - name: Lint HTML files

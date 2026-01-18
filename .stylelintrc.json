@@ -1,15 +1,3 @@
 {
-  "extends": "stylelint-config-standard",
-  "rules": {
-    "no-duplicate-selectors": true,
-    "selector-pseudo-element-colon-notation": "double",
-    "font-family-name-quotes": null,
-    "color-function-notation": null,
-    "color-function-alias-notation": null,
-    "alpha-value-notation": null,
-    "indentation": null,
-    "declaration-empty-line-before": null,
-    "rule-empty-line-before": null,
-    "comment-empty-line-before": null
-  }
+  "extends": "stylelint-config-recommended"
 }
