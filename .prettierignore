@@ -1,0 +1,8 @@
+node_modules/
+.git/
+.github/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg

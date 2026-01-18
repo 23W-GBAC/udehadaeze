@@ -67,6 +67,81 @@ jobs:
             echo "Inline JavaScript found in HTML files"
           fi
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install linting tools
+        run: |
+          npm install -g htmlhint stylelint stylelint-config-standard eslint prettier
+          npm list -g --depth=0
+
+      - name: Lint HTML files
+        run: |
+          echo "Linting HTML files..."
+          # Find and lint all HTML files
+          HTML_ERRORS=0
+          for file in $(find . -name "*.html" -type f -not -path "./.git/*"); do
+            echo "Checking $file..."
+            htmlhint "$file" || HTML_ERRORS=1
+          done
+          if [ $HTML_ERRORS -eq 1 ]; then
+            echo "HTML linting failed. Please fix the errors above."
+            exit 1
+          fi
+          echo "All HTML files passed linting!"
+
+      - name: Lint CSS files
+        run: |
+          echo "Linting CSS files..."
+          CSS_FILES=$(find . -name "*.css" -type f -not -path "./.git/*")
+          if [ -z "$CSS_FILES" ]; then
+            echo "No CSS files found to lint."
+          else
+            CSS_ERRORS=0
+            for file in $CSS_FILES; do
+              echo "Checking $file..."
+              stylelint "$file" --formatter verbose || CSS_ERRORS=1
+            done
+            if [ $CSS_ERRORS -eq 1 ]; then
+              echo "CSS linting failed. Please fix the errors above."
+              exit 1
+            fi
+            echo "All CSS files passed linting!"
+          fi
+
+      - name: Lint JavaScript files
+        run: |
+          echo "Linting JavaScript files..."
+          JS_FILES=$(find . -name "*.js" -type f -not -path "./.git/*")
+          if [ -z "$JS_FILES" ]; then
+            echo "No JavaScript files found to lint."
+          else
+            JS_ERRORS=0
+            for file in $JS_FILES; do
+              echo "Checking $file..."
+              eslint "$file" --format stylish || JS_ERRORS=1
+            done
+            if [ $JS_ERRORS -eq 1 ]; then
+              echo "JavaScript linting failed. Please fix the errors above."
+              exit 1
+            fi
+            echo "All JavaScript files passed linting!"
+          fi
+          # Check for inline scripts in HTML files (warning only)
+          if find . -name "*.html" -type f -exec grep -l "<script>" {} \; 2>/dev/null | grep -q .; then
+            echo "Warning: Inline JavaScript found in HTML files (consider moving to external files)"
+          fi
+
+      - name: Check code formatting with Prettier
+        run: |
+          echo "Checking code formatting..."
+          prettier --check "**/*.{html,css,js}" --ignore-path .prettierignore || {
+            echo "Code formatting check failed. Run 'prettier --write .' to auto-fix formatting issues."
+            exit 1
+          }
+
       - name: Validate project structure
         run: |
           echo "Validating project structure..."
@@ -76,4 +151,6 @@ jobs:
           echo "- HTML files: Present"
           echo "- CSS files: Present"
           echo "- JavaScript files: Present"
+          echo "- Linting checks completed"
+          echo "- Formatting checks completed"
           echo "- All checks passed!"
