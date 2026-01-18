@@ -1,8 +1,8 @@
-const readline = require('readline');
+const readline = require("readline");
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 function bmiCalculatorFormula(weight, height) {
@@ -24,13 +24,15 @@ function bmiDisplayResult(bmiValue) {
 }
 
 console.log("WELCOME to Ada's BMICalculator!!!");
-console.log("Notice: This Calculator is intended for use by individuals over the age of 18");
+console.log(
+  "Notice: This Calculator is intended for use by individuals over the age of 18"
+);
 
-rl.question("Enter your Gender: ", (_gender) => {
-  rl.question("Enter your Weight in kg: ", (weightInput) => {
+rl.question("Enter your Gender: ", _gender => {
+  rl.question("Enter your Weight in kg: ", weightInput => {
     const weight = parseFloat(weightInput);
 
-    rl.question("Enter your Height in cm: ", (heightInput) => {
+    rl.question("Enter your Height in cm: ", heightInput => {
       const height = parseFloat(heightInput);
 
       const bmiValue = bmiCalculatorFormula(weight, height);
@@ -40,4 +42,3 @@ rl.question("Enter your Gender: ", (_gender) => {
     });
   });
 });
-

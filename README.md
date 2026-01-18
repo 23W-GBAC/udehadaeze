@@ -1,7 +1,5 @@
 ![image](https://github.com/23W-GBAC/udehadaeze/assets/148863379/9cef9be8-5386-4a24-b043-2b7c424c4a22)
 
-
-
 # Unlocking the Mystery of BMI: Beyond Numbers and Scales
 
 Body Mass Index (BMI) – three simple letters that carry a weighty significance in the realm of health and wellness. But what lies beyond the numerical calculations and weight status categories? Join us on a journey as we delve deeper into the world of BMI, uncovering its nuances, limitations, and real-world implications.

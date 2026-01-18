@@ -16,13 +16,13 @@ module.exports = [
         __dirname: "readonly",
         __filename: "readonly",
         Buffer: "readonly",
-        global: "readonly"
-      }
+        global: "readonly",
+      },
     },
     rules: {
-      "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+      "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
       "no-console": "off",
-      "no-undef": "error"
-    }
-  }
+      "no-undef": "error",
+    },
+  },
 ];
