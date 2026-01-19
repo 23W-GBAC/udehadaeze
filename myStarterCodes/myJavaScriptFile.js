@@ -1,15 +1,10 @@
-const readline = require("readline");
-
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
 function bmiCalculatorFormula(weight, height) {
   const heightInMeters = height / 100;
   const bmiValue = weight / (heightInMeters * heightInMeters);
   return bmiValue;
 }
+
+module.exports = { bmiCalculatorFormula };
 
 function bmiDisplayResult(bmiValue) {
   if (bmiValue < 18.5) {
@@ -23,22 +18,35 @@ function bmiDisplayResult(bmiValue) {
   }
 }
 
-console.log("WELCOME to Ada's BMICalculator!!!");
-console.log(
-  "Notice: This Calculator is intended for use by individuals over the age of 18"
-);
+function runCli() {
+  const readline = require("readline");
 
-rl.question("Enter your Gender: ", _gender => {
-  rl.question("Enter your Weight in kg: ", weightInput => {
-    const weight = parseFloat(weightInput);
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
 
-    rl.question("Enter your Height in cm: ", heightInput => {
-      const height = parseFloat(heightInput);
+  console.log("WELCOME to Ada's BMICalculator!!!");
+  console.log(
+    "Notice: This Calculator is intended for use by individuals over the age of 18"
+  );
 
-      const bmiValue = bmiCalculatorFormula(weight, height);
-      bmiDisplayResult(bmiValue);
+  rl.question("Enter your Gender: ", _gender => {
+    rl.question("Enter your Weight in kg: ", weightInput => {
+      const weight = parseFloat(weightInput);
 
-      rl.close();
+      rl.question("Enter your Height in cm: ", heightInput => {
+        const height = parseFloat(heightInput);
+
+        const bmiValue = bmiCalculatorFormula(weight, height);
+        bmiDisplayResult(bmiValue);
+
+        rl.close();
+      });
     });
   });
-});
+}
+
+if (require.main === module) {
+  runCli();
+}

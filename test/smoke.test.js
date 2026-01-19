@@ -1,19 +1,25 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 
-test("smoke: CI test runner works", () => {
-  assert.equal(true, true);
+test("smoke: test runner is working", () => {
+  assert.equal(1 + 1, 2);
 });
 
-test("basic: math still works", () => {
-  assert.equal(2 + 2, 4);
+test("string: basic operations", () => {
+  const name = "Ada";
+  assert.equal(name.toUpperCase(), "ADA");
+  assert.equal(name.toLowerCase(), "ada");
 });
 
-test("basic: strings still work", () => {
-  assert.equal("hello".toUpperCase(), "HELLO");
+test("array: mapping numbers", () => {
+  const nums = [1, 2, 3];
+  const doubled = nums.map(n => n * 2);
+  assert.deepEqual(doubled, [2, 4, 6]);
 });
 
-test("basic: arrays still work", () => {
-  assert.deepEqual([1, 2, 3].map(n => n * 2), [2, 4, 6]);
+test("object: keys and values", () => {
+  const obj = { a: 1, b: 2 };
+  assert.deepEqual(Object.keys(obj).sort(), ["a", "b"]);
+  assert.deepEqual(Object.values(obj).sort(), [1, 2]);
 });
 
