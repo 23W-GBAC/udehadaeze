@@ -74,6 +74,10 @@ jobs:
           npm install -g htmlhint stylelint stylelint-config-recommended eslint prettier
           npm list -g --depth=0
 
+      - name: Run unit tests
+        run: |
+          npm test
+
       - name: Lint HTML files
         run: |
           echo "Linting HTML files..."

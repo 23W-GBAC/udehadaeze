@@ -1,0 +1,11 @@
+{
+  "name": "udehadaeze-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static site with CI checks",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test"
+  }
+}
+
